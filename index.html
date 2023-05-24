@@ -1,13 +1,14 @@
 <head>
 </head>
 <body>
-<script>
+
+  <p id="h1hi">Hi!</p>
+  <script>
   if (navigator.requestMIDIAccess) {
     console.log('This browser supports WebMIDI!');
-    document.getElementById('h1').innerHtml = 'This browser supports WebMIDI!';
+    document.getElementById("h1hi").innerHTML = "this browser supporst webmidi";
 } else {
     console.log('WebMIDI is not supported in this browser.');
 }
 </script>
-  <h1 id="h1">Hi!</h1>
 </body>
